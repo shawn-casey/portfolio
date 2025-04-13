@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="icon" href="images/favicon.png" type="image/png" />
+    <title>Shawn Casey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XD61P57LBK"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XD61P57LBK');
+    </script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-links">
+                <a href="#projects">Projects</a>
+                <a href="#experiences">Experience</a>
+                <a href="#involvement">Involvement</a>
+                <a href="#about">About</a>
+            </div>
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Shawn Casey</h1>
+                    <p class="subtitle">Computer Science Student & Embedded Systems Enthusiast</p>
+                    <p class="hero-description">I want to build reliable, scalable systems that solve real problems - with a focus on development, security, and integration. 
+                        My goal is to create technology that delivers real value, drives impact, and scales meaningfully.</p>
+                    <div class="social-links">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Projects</h2>
+                    <p class="section-subtitle">A few pieces of work I am especially proud of</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/kiwiSetupDebug.png" alt="Kiwi-Pico Snake Game">
+                        </div>
+                        <div class="project-content">
+                            <h3>Kiwi-Pico Snake Game</h3>
+                            <p>Developed an embedded Snake game for the Raspberry Pi Pico microcontroller with a custom C implementation. Utilized TinyUSB and PicoDVI libraries to enable external keyboard input and real-time display output.</p>
+                            <div class="project-meta">
+                                <div class="tags">
+                                    <span>Embedded Systems</span>
+                                    <span>C</span>
+                                    <span>CMake</span>
+                                    <span>RP2040</span>
+                                </div>
+                                <a href="https://github.com/cytrence/kiwi-pico" target="_blank" class="project-link" aria-label="View on GitHub">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/tieRod.png" alt="Race Car Tie Rod Force Analysis">
+                        </div>
+                        <div class="project-content">
+                            <h3>Race Car Tie Rod Force Analysis</h3>
+                            <p>Made a data analysis pipeline to correlate tie rod force with lateral and inline G-forces using regression modeling. Implemented anomaly detection based on G-force categories.</p>
+                            <div class="project-meta">
+                                <div class="tags">
+                                    <span>Python</span>
+                                    <span>NumPy</span>
+                                    <span>Pandas</span>
+                                    <span>Plotly</span>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/panTilt.png" alt="Face Tracking Pan/Tilt Pi 5">
+                        </div>
+                        <div class="project-content">
+                            <h3>Face Tracking Pan/Tilt Pi 5</h3>
+                            <p>Created a real-time face tracking system using Raspberry Pi and OpenCV. Utilized Haar Cascade detection to identify faces and controlled pan-tilt servos for tracking.</p>
+                            <div class="project-meta">
+                                <div class="tags">
+                                    <span>Python</span>
+                                    <span>Servo Control</span>
+                                    <span>OpenCV</span>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <img src="images/mockup.png" alt="Portfolio Website">
+                        </div>
+                        <div class="project-content">
+                            <h3>Portfolio Website</h3>
+                            <p>Built a fully responsive professional portfolio using modern web technologies, ensuring seamlessness across all devices. Applied responsive design techniques and smooth animations.</p>
+                            <div class="project-meta">
+                                <div class="tags">
+                                    <span>JavaScript</span>
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                </div>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experiences" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Experience</h2>
+                    <p class="section-subtitle">Professional roles and internships</p>
+                </div>
+                
+                <div class="experience-grid">
+                    <!-- Experience 1 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-logo">
+                                <img src="images/USBank.png" alt="US Bank">
+                            </div>
+                            <div>
+                                <h3>Software Engineering Intern</h3>
+                                <p class="company">US Bank</p>
+                            </div>
+                        </div>
+                        <ul class="exp-details">
+                            <li>Developed and delivered MVPs with full stack functionality</li>
+                            <li>Implemented APIs and efficient algorithms for performance</li>
+                            <li>Collaborated in fast-paced teams to prioritize user needs</li>
+                        </ul>
+                    </article>
+
+                    <!-- Experience 2 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-logo">
+                                <img src="images/cytrence.png" alt="Cytrence">
+                            </div>
+                            <div>
+                                <h3>Firmware Engineering Intern</h3>
+                                <p class="company">Cytrence Technologies</p>
+                            </div>
+                        </div>
+                        <ul class="exp-details">
+                            <li>Practiced firmware development at a late-stage startup</li>
+                            <li>Configured Arm64 and dual-core Cortex-M0+ architectures</li>
+                            <li>Built cross-compilation workflows with Make, CMake, and Docker</li>
+                        </ul>
+                    </article>
+
+                    <!-- Experience 3 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-logo">
+                                <img src="images/ketPsi.png" alt="UConn">
+                            </div>
+                            <div>
+                                <h3>Quantum Computing Research</h3>
+                                <p class="company">UConn/Independent Study</p>
+                            </div>
+                        </div>
+                        <ul class="exp-details">
+                            <li>Will be optimizing key generation for satellite QKD</li>
+                            <li>Evaluate post-processing methods and running simulations</li>
+                            <li>Investigate pump power and sampling rates</li>
+                        </ul>
+                    </article>
+
+                    <!-- Experience 4 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-logo">
+                                <img src="images/IBM.png" alt="IBM">
+                            </div>
+                            <div>
+                                <h3>Mock Security Analyst</h3>
+                                <p class="company">IBM SkillsBuild</p>
+                            </div>
+                        </div>
+                        <ul class="exp-details">
+                            <li>Used Shodan, sock puppets, and OpenVAS for assessments</li>
+                            <li>Conducted vulnerability assessments</li>
+                            <li>Articulated technical findings to stakeholders</li>
+                        </ul>
+                    </article>
+
+                    <!-- Experience 5 -->
+                    <article class="experience-card">
+                        <div class="exp-header">
+                            <div class="exp-logo">
+                                <img src="images/c&gLogo.png" alt="C&G">
+                            </div>
+                            <div>
+                                <h3>Co-Founder</h3>
+                                <p class="company">C & G Car Detailing</p>
+                            </div>
+                        </div>
+                        <ul class="exp-details">
+                            <li>Oversaw and mentored a team of 4</li>
+                            <li>Improved operational efficiency</li>
+                            <li>Launched marketing campaigns increasing clientele by 50%</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Involvement Section -->
+        <section id="involvement" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Involvement</h2>
+                    <p class="section-subtitle">Leadership and extracurricular activities</p>
+                </div>
+                
+                <div class="involvement-grid">
+                    <!-- Involvement 1 -->
+                    <article class="involvement-card">
+                        <div class="inv-header">
+                            <div class="inv-logo">
+                                <img src="images/FSAE.png" alt="FSAE">
+                            </div>
+                            <div>
+                                <h3>Electronics/Data Acquisition</h3>
+                                <p class="org">UConn Formula SAE</p>
+                            </div>
+                        </div>
+                        <ul class="inv-details">
+                            <li>Analyzed sensor data to optimize performance and reliability</li>
+                            <li>Designed and built tools like a suspension damper dyno</li>
+                            <li>Developed wiring harness and control pedals</li>
+                        </ul>
+                    </article>
+
+                    <!-- Involvement 2 -->
+                    <article class="involvement-card">
+                        <div class="inv-header">
+                            <div class="inv-logo">
+                                <img src="images/piKapp.png" alt="Pi Kapp">
+                            </div>
+                            <div>
+                                <h3>Philanthropy Chairman</h3>
+                                <p class="org">Pi Kappa Phi</p>
+                            </div>
+                        </div>
+                        <ul class="inv-details">
+                            <li>Raised over $43,000 for The Ability Experience</li>
+                            <li>Managed 12-hour service requirement</li>
+                            <li>Organized events to promote community engagement</li>
+                        </ul>
+                    </article>
+
+                    <!-- Involvement 3 -->
+                    <article class="involvement-card">
+                        <div class="inv-header">
+                            <div class="inv-logo">
+                                <img src="images/huskython.png" alt="HuskyTHON">
+                            </div>
+                            <div>
+                                <h3>DEI Captain</h3>
+                                <p class="org">HuskyTHON Dance Marathon</p>
+                            </div>
+                        </div>
+                        <ul class="inv-details">
+                            <li>Led initiatives to ensure all students could participate</li>
+                            <li>Boosted inclusivity and engagement</li>
+                            <li>Increased registration by 18.6% through outreach</li>
+                        </ul>
+                    </article>
+
+                    <!-- Involvement 4 -->
+                    <article class="involvement-card">
+                        <div class="inv-header">
+                            <div class="inv-logo">
+                                <img src="images/amp.png" alt="AMP">
+                            </div>
+                            <div>
+                                <h3>Mentor</h3>
+                                <p class="org">Asian/Asian American Mentoring Program</p>
+                            </div>
+                        </div>
+                        <ul class="inv-details">
+                            <li>Supporting freshman in navigating college life</li>
+                            <li>Attending and eventually leading workshops promoting academic success</li>
+                            <li>Focused on leadership development</li>
+                        </ul>
+                    </article>
+
+                    <!-- Involvement 5 -->
+                    <article class="involvement-card">
+                        <div class="inv-header">
+                            <div class="inv-logo">
+                                <img src="images/UConnUltimate.png" alt="Ultimate">
+                            </div>
+                            <div>
+                                <h3>Teammate</h3>
+                                <p class="org">UConn Men's Club Ultimate Frisbee</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Involvement 6 -->
+                    <article class="involvement-card">
+                        <div class="inv-header">
+                            <div class="inv-logo">
+                                <img src="images/ucoc.png" alt="UCOC">
+                            </div>
+                            <div>
+                                <h3>Member</h3>
+                                <p class="org">UConn Outing Club</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2>About Me</h2>
+                    <p class="section-subtitle">Getting personal</p>
+                </div>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="about-card">
+                            <h3>Education</h3>
+                            <p><strong>B.S. in Computer Science</strong><br>
+                            University of Connecticut — Expected 2026<br>
+                            Minor: Mathematics</p>
+                        </div>
+                        
+                        <div class="about-card">
+                            <h3>Interests</h3>
+                            <ul class="interests-list">
+                                <li>Mountain Biking</li>
+                                <li>Hiking/Backpacking</li>
+                                <li>Hockey</li>
+                                <li>Skiing</li>
+                                <li>Cars</li>
+                                <li>Music</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="about-card">
+                            <h3>Looking Ahead</h3>
+                            <p>I'm seeking opportunities at companies pushing the boundaries of innovation, aiming to find a high-impact domain where I can contribute most. Long-term, I hope to build something of my own—rooted in systems thinking, technical depth, and meaningful impact.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="images/headshot.png" alt="Shawn Casey">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="copyright">&copy; Shawn Casey 2025</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/shawncaseyx/" target="_blank">LinkedIn</a>
+                    <a href="mailto:shawn.casey@uconn.edu">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+        // Close menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                hamburger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animate elements when they come into view
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.project-card, .experience-card, .involvement-card, .about-card').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
