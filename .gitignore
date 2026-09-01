@@ -1,0 +1,10 @@
+node_modules
+dist
+dist-ssr
+.vercel
+.netlify
+*.local
+.DS_Store
+.env
+.env.local
+*.tsbuildinfo

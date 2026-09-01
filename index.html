@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#1e1e1e" />
+    <title>Shawn Casey · Cybersecurity</title>
+    <meta
+      name="description"
+      content="Shawn Casey. M.S. Cybersecurity at Georgia Tech (Cyber-Physical Systems). Mobile security and agentic systems. A portfolio built as an Obsidian vault."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Shawn Casey · Cybersecurity" />
+    <meta
+      property="og:description"
+      content="M.S. Cybersecurity at Georgia Tech. Mobile pen-testing automation, agentic systems, and machines that were never meant to be talked to."
+    />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/og.png" />
+    <style>
+      /* Paint the shell colour before the bundle lands. */
+      html { background: #1e1e1e; }
+      html[data-theme='light'] { background: #ffffff; }
+    </style>
+  </head>
+  <body>
+    <script>
+      // Apply the saved theme before first paint so there is no flash.
+      try {
+        var t = localStorage.getItem('theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
