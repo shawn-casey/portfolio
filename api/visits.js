@@ -8,9 +8,9 @@
  * the same request.
  *
  * Storage: Upstash Redis over its REST API (works on Vercel, Netlify, Cloudflare
- * Workers, Deno Deploy, anywhere `fetch` exists). Set these env vars:
- *   UPSTASH_REDIS_REST_URL
- *   UPSTASH_REDIS_REST_TOKEN
+ * Workers, Deno Deploy, anywhere `fetch` exists). Set either pair:
+ *   UPSTASH_REDIS_REST_URL  + UPSTASH_REDIS_REST_TOKEN
+ *   KV_REST_API_URL         + KV_REST_API_TOKEN
  * Without them the endpoint still answers with your own geo and a zeroed
  * aggregate, and the site degrades gracefully.
  *
@@ -21,8 +21,10 @@
 const KEY = 'visits:cities';
 const TOTAL_KEY = 'visits:total';
 
-const URL_BASE = process.env.UPSTASH_REDIS_REST_URL;
-const TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN;
+// Vercel's Upstash integration injects KV_REST_API_* on some versions and
+// UPSTASH_REDIS_REST_* on others. Accept either.
+const URL_BASE = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+const TOKEN = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
 const enabled = Boolean(URL_BASE && TOKEN);
 
 async function redis(command) {

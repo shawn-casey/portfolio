@@ -84,11 +84,12 @@ no individual visit is ever attributable. The reasoning is written up on the **V
 - `GET /api/visits` reads the aggregate
 - `POST /api/visits` increments this city, then reads (the client posts once per browser session)
 
-Set two environment variables to turn it on:
+Set either pair of environment variables to turn it on. Vercel's Upstash
+integration injects one of them for you:
 
 ```
-UPSTASH_REDIS_REST_URL
-UPSTASH_REDIS_REST_TOKEN
+UPSTASH_REDIS_REST_URL  + UPSTASH_REDIS_REST_TOKEN
+KV_REST_API_URL         + KV_REST_API_TOKEN
 ```
 
 Without them, the endpoint answers with your own geo and a zeroed aggregate, and the Visitor note
