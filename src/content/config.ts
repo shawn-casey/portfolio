@@ -1,8 +1,7 @@
 export const SITE = {
   name: 'Shawn Casey',
   vaultName: 'shawn-casey',
-  /** TODO(shawn): replace with your real Georgia Tech address before publishing. */
-  gtEmail: 'REPLACE-ME@gatech.edu',
+  gtEmail: 'shawn.casey@gatech.edu',
   linkedin: 'https://www.linkedin.com/in/shawncaseyx/',
   github: 'https://github.com/shawn-casey',
   /** Order of folders in the file explorer. */
