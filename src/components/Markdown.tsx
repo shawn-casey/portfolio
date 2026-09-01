@@ -17,10 +17,22 @@ export function slugify(text: string) {
     .replace(/\s+/g, '-');
 }
 
+const EMAIL_SET = !/REPLACE-ME/i.test(SITE.gtEmail);
+
+/**
+ * An unset address must never reach a published page, so in a production build
+ * it degrades to a pointer at LinkedIn. In dev it shouts, so it gets fixed.
+ */
+function emailMarkdown() {
+  if (EMAIL_SET) return `[${SITE.gtEmail}](mailto:${SITE.gtEmail})`;
+  if (import.meta.env.DEV) return '**:warning: set `SITE.gtEmail` in `src/content/config.ts`**';
+  return 'by request, easiest through LinkedIn';
+}
+
 /** Rewrite Obsidian syntax into plain markdown react-markdown understands. */
 export function preprocess(body: string) {
   return body
-    .replace(/\{\{email\}\}/g, `[${SITE.gtEmail}](mailto:${SITE.gtEmail})`)
+    .replace(/\{\{email\}\}/g, emailMarkdown)
     .replace(WIKILINK, (_m, target: string, display?: string) => {
       const id = resolveLink(target);
       const label = (display ?? target).replace(/[[\]]/g, '');

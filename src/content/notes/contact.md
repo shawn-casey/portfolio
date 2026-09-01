@@ -7,9 +7,6 @@ tags: [meta]
 summary: GT email and LinkedIn.
 ---
 
-> [!todo] Before publishing
-> Put your real Georgia Tech address in `src/content/config.ts` (`SITE.gtEmail`).
-
 - **Email** {{email}}
 - **LinkedIn** [linkedin.com/in/shawncaseyx](https://www.linkedin.com/in/shawncaseyx/)
 - **GitHub** [github.com/shawn-casey](https://github.com/shawn-casey)
