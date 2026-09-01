@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 type Row = { k: string; v: string | null };
-type Visits = { total: number; cities: { city: string; count: number }[] };
+type Visits = { total: number; cities: { city: string; count: number }[]; storage?: string };
 
 // ── passive, entirely local ────────────────────────────────────────────────
 function browserName(ua: string) {
@@ -146,6 +146,9 @@ export function VisitCounter() {
         });
         if (!r.ok) throw new Error(String(r.status));
         const j = (await r.json()) as Visits;
+        // The endpoint answers 200 with an empty aggregate when no key-value
+        // store is wired up. That is "off", not "zero visitors".
+        if (j.storage && j.storage !== 'ok') throw new Error(j.storage);
         if (!alive) return;
         try {
           sessionStorage.setItem('counted', '1');

@@ -83,7 +83,12 @@ export default async function handler(req, res) {
       cities.push({ city: flat[i], count: Number(flat[i + 1]) || 0 });
     }
     cities.sort((a, b) => b.count - a.count || a.city.localeCompare(b.city));
-    return send(200, { you, total: Number(total) || cities.reduce((s, c) => s + c.count, 0), cities });
+    return send(200, {
+      you,
+      total: Number(total) || cities.reduce((s, c) => s + c.count, 0),
+      cities,
+      storage: 'ok',
+    });
   } catch (err) {
     return send(200, { you, total: 0, cities: [], storage: 'error', detail: String(err) });
   }
