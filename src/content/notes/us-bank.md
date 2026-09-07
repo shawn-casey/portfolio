@@ -2,7 +2,7 @@
 id: us-bank
 title: U.S. Bank
 folder: Experience
-order: 5
+order: 7
 tags: [ios, swift, payments, rag, internship]
 summary: Software Engineering Intern on Zelle Money Movement. iOS payment features, biometric auth, and on-device privacy-preserving insights.
 ---

@@ -3,17 +3,14 @@ id: trust-layer
 title: Trust Layer for Agentic Payments
 folder: Projects
 order: 3
-aliases: [Hasta La Visa, Maya]
 tags: [agents, payments, fintech, hackathon]
 summary: A shared budget across many agents with attenuating delegation. Every sub-agent inherits a strictly tighter cap.
 ---
 
-Built at the [[Visa]] intern hackathon with a team called Hasta La Visa. We named it Maya.
+Built at the [[Visa]] intern hackathon with a four-person team.
 
 > [!success] North America Winner; global finalist, 1 of 4 teams worldwide.
 > Organizers named the outright global winner and gave no placement to anyone else. Four finalists, one winner named, we were one of the four.
-
-![|wide](/img/hackathon.webp)
 
 ## The problem
 

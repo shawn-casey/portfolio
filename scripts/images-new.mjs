@@ -5,6 +5,9 @@ const SRC = process.env.PHOTOS_DIR ?? '..';
 const OUT = 'public/img';
 const p = (f) => path.join(SRC, f);
 
+// (The hackathon pitch slide is deliberately not published: it carries the team
+// name and the project codename in large type.)
+
 // 1. Marcel landing page hero
 await sharp(p('marcel.png')).resize({ width: 1400 }).webp({ quality: 74 }).toFile(`${OUT}/marcel-hero.webp`);
 

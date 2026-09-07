@@ -13,7 +13,6 @@ fs.mkdirSync(OUT, { recursive: true });
 const jobs = [
   ['belcan-f135 engine.jpg', 'f135', 900, 74, null],
   ['boston-robitics-summit.png', 'robotics-summit', 900, 70, null],
-  ['hackathon-hero.png', 'hackathon', 1100, 76, null],
   ['qpke-circut.png', 'qpke', 660, 82, null],
   ['car-detailing.png', 'detailing', 1100, 62, null],
   ['huskython.png', 'huskython', 1100, 62, null],

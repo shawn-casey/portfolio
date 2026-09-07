@@ -15,6 +15,8 @@ M.S. Cybersecurity at [[Georgia Institute of Technology]], Cyber-Physical System
 
 Jailbroken iPhones. Rooted Androids. F135 turbofan telemetry. CNC controllers. Noisy quantum hardware. Same instinct every time: get past whatever is guarding the thing, then build something that can reason about what you find.
 
+Right now: product and growth work on a hardware launch at [[Cytrence Technologies]], and building an [[RV32I Processor|RV32I processor]] in SystemVerilog with SiliconJackets at Georgia Tech.
+
 > [!info] What I'm looking for
 > A Summer 2027 internship in the Bay Area or New York. I want to be somewhere I'm encouraged to break things, then build the systems that put them back together better than before. Proving out the newest tools rather than reaching for the ones that are already proven.
 

@@ -10,6 +10,9 @@ website: marcelcnc.com
 
 [marcelcnc.com](https://marcelcnc.com) · August 2025 to present
 
+> [!warning] Status
+> A working prototype. It has not been validated against a real machine on a real shop floor, and there are no users. Everything below is what it does on the bench and why it is built that way.
+
 ![|wide](/img/marcel-hero.webp)
 
 ## The expert who retired
@@ -22,7 +25,7 @@ What's left is a fifteen-hundred-page manual, a machine that's down, an operator
 
 Watches for a machine alarm. Retrieves the documented fix, cited rather than guessed, from manuals, service bulletins, and this machine's own history. Dispatches it to a maintenance lead with the fault and the procedure.
 
-Downtime collapses to the time it takes a human to walk over, because the diagnosis got there first.
+The intent is that downtime collapses to the time it takes a human to walk over, because the diagnosis got there first. Proving that on real hardware is the next step, not a claim I can make yet.
 
 ## Read-only, on purpose
 
@@ -37,6 +40,6 @@ Same instinct as [[Trust Layer for Agentic Payments]]. Bound what an agent *may*
 
 ## Next
 
-**IMTS**, the International Manufacturing Technology Show in Chicago. Every controller vendor, integrator, and shop owner in the country in one building for a week, which makes it the cheapest way to find out whether the people who'd actually run this agree with how I've framed the problem.
+**IMTS**, the International Manufacturing Technology Show in Chicago. Every controller vendor, integrator, and shop owner in the country in one building for a week, which makes it the cheapest way to find out whether the people who'd actually run this agree with how I've framed the problem, and to find a machine to validate against.
 
 Back to [[Projects]] · [[Entrepreneurship]] · [[Cytrence Technologies]]

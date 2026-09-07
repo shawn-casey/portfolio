@@ -12,7 +12,9 @@ summary: Following the security world closely and digging into things when the n
 
 DEFCON talks, mostly the hardware and mobile tracks, because people there present the failures: the six weeks of not working before the exploit landed. Advisory feeds and CISA KEV additions. Researchers on X, who post the interesting half of what they're working on months before anyone writes it up.
 
-The part that separates it from doomscrolling is going and reading the thing itself.
+The part that separates it from doomscrolling is going and doing something with it.
+
+**Hack The Box** for CTF practice, which is the cheapest way to keep enumeration and exploitation reflexes from going stale between real engagements. **Wireshark** for network forensics, mostly pulling apart captures to see what a protocol actually does rather than what its documentation says it does. **GreyHat** at [[Georgia Institute of Technology]] is the club side of the same habit.
 
 ## Example: the IPv6 kernel bug
 

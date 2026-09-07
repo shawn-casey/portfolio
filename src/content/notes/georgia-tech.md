@@ -20,4 +20,9 @@ Which cuts both ways, and the second way is more interesting: the physics is als
 
 Atlanta also puts me next to a concentration of payments and critical-infrastructure security work, which was not an accident.
 
+## Organizations
+
+- **SiliconJackets**, digital design. Where I'm building the [[RV32I Processor]] in SystemVerilog.
+- **GreyHat**, offensive security. The applied counterpart to the coursework, and the reason [[Security & CTI Interest]] keeps turning into something hands-on.
+
 Back to [[Education]]
