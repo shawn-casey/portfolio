@@ -12,6 +12,9 @@ summary: Software Engineering Intern on Zelle Money Movement. iOS payment featur
 **Software Engineering Intern**
 Zelle Money Movement · Atlanta, GA · June to August 2025
 
+**Technology Fellow**
+June to July 2024
+
 ![|inset](/img/usbank-office.webp)
 
 Ten weeks inside the part of a bank where money actually moves, writing Swift.

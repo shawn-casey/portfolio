@@ -2,7 +2,7 @@
 id: kiwi-pico
 title: Kiwi-Pico Firmware
 folder: Projects
-order: 6
+order: 8
 tags: [embedded, firmware, rp2040, open-source]
 summary: Open-source RP2040 demo firmware for a laptop-as-monitor device. Dual-core rendering pipeline, DVI output, USB HID input.
 repo: https://github.com/cytrence/kiwi-pico

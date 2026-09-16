@@ -2,7 +2,7 @@
 id: rv32i
 title: RV32I Processor
 folder: Projects
-order: 5
+order: 7
 tags: [hardware, rtl]
 summary: A single-core RISC-V processor in SystemVerilog, built with SiliconJackets at Georgia Tech. In progress.
 ---

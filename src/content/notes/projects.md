@@ -10,6 +10,8 @@ summary: A CNC diagnostic agent, a quantum encryption compiler, a trust layer fo
 
 Things I built because I wanted them to exist.
 
+- [[Adversarial Testing Harness for AV Perception]] · attacking perception in simulation, and scoring each attack against a natural-degradation baseline. In progress.
+- [[Adversarial Latency on Edge Inference]] · what adversarial inputs do to inference time rather than accuracy, on a Jetson Orin Nano. In progress.
 - [[Marcel]] · a CNC diagnostic agent for machine shops. Deliberately read-only.
 - [[Quantum Public Key Encryption for NISQ Devices]] · a tunable quantum encryption compiler for noisy hardware.
 - [[Trust Layer for Agentic Payments]] · attenuating delegation for a budget shared across many agents. North America Winner at the [[Visa]] intern hackathon.

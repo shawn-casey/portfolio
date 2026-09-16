@@ -2,7 +2,7 @@
 id: tie-rod
 title: Tie Rod Force Anomaly Detection
 folder: Projects
-order: 4
+order: 6
 aliases: [Tie Rod Analysis, FSAE]
 tags: [data-analysis, python, plotly, anomaly-detection]
 summary: Python and Plotly analysis of tie rod force telemetry from Formula SAE runs, flagging high load under low G.
