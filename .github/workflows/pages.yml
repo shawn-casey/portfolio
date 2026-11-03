@@ -1,0 +1,51 @@
+# Builds the Vite app and publishes it to GitHub Pages.
+#
+# Pages is configured with build_type "workflow" and sourced from this branch,
+# which means nothing gets published unless a workflow does it. Without this
+# file Pages serves the raw repository, and the site's entry point is
+# /src/main.tsx, which a browser cannot execute.
+name: Deploy to Pages
+
+on:
+  push:
+    branches: [obsidian-portfolio]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Let a running deploy finish rather than cancelling it mid-publish.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      # Custom domain lives in the Pages settings, but the file keeps it
+      # pinned if the setting is ever reset.
+      - run: cp CNAME dist/CNAME || true
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
