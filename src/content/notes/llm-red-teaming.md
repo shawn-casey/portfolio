@@ -2,7 +2,7 @@
 id: llm-red-teaming
 title: LLM Red Teaming
 folder: Experience
-order: 4
+order: 6
 tags: [llm-security, prompt-injection, ai-security, red-team]
 summary: Indirect prompt injection against an internal document-upload assistant. It held, and flagged a formula-injection row I hadn't planted.
 ---

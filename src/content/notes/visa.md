@@ -2,7 +2,7 @@
 id: visa
 title: Visa
 folder: Experience
-order: 1
+order: 3
 tags: [mobile-security, agents, pentesting, ios, android, internship]
 summary: Cybersecurity Engineering Intern on Mobile, Mac & IoT Security. Owned the orchestration layer for the team's agentic mobile pen-testing pipeline.
 ---
@@ -10,7 +10,7 @@ summary: Cybersecurity Engineering Intern on Mobile, Mac & IoT Security. Owned t
 ![|logo](/img/visa.webp)
 
 **Cybersecurity Engineering Intern**
-Mobile, Mac & IoT Security · Austin, TX · June to August 2026
+Mobile, Mac & IoT Security · Austin, TX · May to August 2026
 
 Two jobs that fed each other: I ran hands-on mobile assessments, and I built the automation meant to run them at scale.
 

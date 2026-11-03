@@ -2,7 +2,7 @@
 id: av-harness
 title: Adversarial Testing Harness for AV Perception
 folder: Projects
-order: 4
+order: 5
 tags: [autonomous-vehicles, security, simulation, perception, in-progress]
 summary: An open-source harness that attacks autonomous-vehicle perception in simulation, and scores each attack against a natural-degradation baseline.
 ---

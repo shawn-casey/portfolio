@@ -2,7 +2,7 @@
 id: edge-latency
 title: Adversarial Latency on Edge Inference
 folder: Projects
-order: 5
+order: 6
 tags: [jetson, cuda, tensorrt, edge-ai, real-time, security, in-progress]
 summary: Measuring what adversarial inputs do to inference time rather than accuracy on a Jetson Orin Nano, and reporting severity as deadline-miss rate.
 ---

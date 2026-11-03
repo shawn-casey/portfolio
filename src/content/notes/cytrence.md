@@ -2,16 +2,18 @@
 id: cytrence
 title: Cytrence Technologies
 folder: Experience
-order: 5
+order: 7
 tags: [firmware, embedded, robotics, startups, product, internship]
-summary: Product and growth work on a hardware device launch, August 2026 to present. Firmware engineering intern before that, summer 2024.
+summary: Part-time product and growth work on a hardware device launch, September 2026 to present. Built paid social from zero and produced the launch videos. Firmware engineering intern before that, summer 2024.
 ---
 
-## Product & Growth, August 2026 to present
+## Product & Growth, September 2026 to present
 
-Remote
+Part-time · remote
 
 I own go-to-market content strategy for a hardware device launch, and I lead use-case development across the **industrial** and **datacenter** segments.
+
+I built paid social from zero: **151 purchases**, about **$3.40 in sales per ad dollar**. I also produced the launch videos for the **Kiwi+ VGA** product.
 
 The work is figuring out who the device is actually for and proving it in specifics. An industrial buyer and a datacenter buyer want the same box for different reasons, and the pitch that lands with one is noise to the other. Use-case development means going and finding the concrete workflow each of them is stuck on, then making sure the product story starts there rather than at the feature list.
 

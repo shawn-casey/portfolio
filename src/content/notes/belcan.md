@@ -2,9 +2,9 @@
 id: belcan
 title: Belcan
 folder: Experience
-order: 6
+order: 8
 tags: [data-engineering, databricks, aerospace, cyber-physical-systems, internship]
-summary: Part-time data analytics on the Pratt & Whitney F135 program during my last semester. Databricks and Plotly pipelines over fighter-engine telemetry.
+summary: Part-time data analytics on the Pratt & Whitney F135 / F-35 propulsion program. Fault thresholds that separate real engine faults from ordinary process variation across an operational fleet.
 ---
 
 ![|logo](/img/belcan.webp)
@@ -12,7 +12,7 @@ summary: Part-time data analytics on the Pratt & Whitney F135 program during my 
 **Data Analytics Intern**, part-time alongside my last semester at [[University of Connecticut]]
 Windsor, CT · March to May 2026
 
-Analytics pipelines for the **Pratt & Whitney F135**, the propulsion system for the F-35.
+Analytics pipelines for the **Pratt & Whitney F135 / F-35 propulsion program**. The core of the work was fault thresholds: separating a real engine fault from ordinary process variation across an operational fleet.
 
 ![|wide](/img/f135.webp)
 

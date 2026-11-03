@@ -2,7 +2,7 @@
 id: trust-layer
 title: Trust Layer for Agentic Payments
 folder: Projects
-order: 3
+order: 4
 tags: [agents, payments, fintech, hackathon]
 summary: A shared budget across many agents with attenuating delegation. Every sub-agent inherits a strictly tighter cap.
 ---

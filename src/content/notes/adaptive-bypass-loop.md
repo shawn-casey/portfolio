@@ -2,7 +2,7 @@
 id: adaptive-bypass-loop
 title: Adaptive Bypass Loop
 folder: Experience
-order: 3
+order: 5
 tags: [agents, mobile-security, frida, demo]
 summary: Two agents negotiating past a mobile app's defenses in escalating rounds. Demo run took four.
 ---

@@ -19,7 +19,7 @@ SystemVerilog · Cadence Xcelium · RTL simulation · SRAM interfaces ([[RV32I P
 Frida · Objection · Burp Suite · mitmproxy · JADX · Ghidra · MobSF · Magisk · palera1n · ADB · Corellium · Appium, all at [[Visa]]; the interesting parts are in [[Adaptive Bypass Loop]]. Wireshark for network forensics and Hack The Box for CTF practice ([[Security & CTI Interest]]).
 
 #### Agents and backend
-Temporal · FastAPI · Docker · PostgreSQL · GraphQL and REST · RAG and on-device inference ([[U.S. Bank]]) · prompt-injection testing ([[LLM Red Teaming]]) · capability-scoped agent authority ([[Trust Layer for Agentic Payments]], [[Marcel]])
+Temporal · FastAPI · Docker · PostgreSQL · GraphQL and REST · RAG and on-device inference ([[U.S. Bank]]) · prompt-injection testing ([[LLM Red Teaming]]) · capability-scoped authority for software that touches money or machines ([[Trust Layer for Agentic Payments]], [[Marcel]])
 
 #### Data
 Databricks · pandas · NumPy · Plotly · anomaly detection on physical telemetry ([[Belcan]], [[Tie Rod Force Anomaly Detection]])

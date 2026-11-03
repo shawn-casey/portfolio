@@ -3,43 +3,50 @@ id: marcel
 title: Marcel
 folder: Projects
 order: 1
-tags: [agents, cyber-physical-systems, manufacturing, startups]
-summary: A CNC diagnostic agent. Sees the alarm, finds the documented fix, routes it to a human. Read-only on purpose.
+tags: [agents, cyber-physical-systems, manufacturing, startups, cnc]
+summary: Air-gapped AI operator for CNC machines. Reads the control screen, diagnoses alarms from the machine's own manuals with page citations, and texts a technician. Read-only on a real machine so far. Actions run in simulation.
 website: marcelcnc.com
 ---
 
 [marcelcnc.com](https://marcelcnc.com) · August 2025 to present
 
 > [!warning] Status
-> A working prototype. It has not been validated against a real machine on a real shop floor, and there are no users. Everything below is what it does on the bench and why it is built that way.
+> Working on a real machine by phone, read-only. Actions work in simulation only. It is not installed on a real CNC control yet, and there is no pilot shop yet.
 
-![|wide](/img/marcel-hero.webp)
+**Air-gapped AI operator for CNC machines.**
 
-## The expert who retired
+A small KVM-style capture-and-keyboard device on the control's screen and USB keyboard port lets Marcel read the screen, diagnose alarms from the machine's own manuals with page citations, take actions from a short reviewed list and verify them on screen, and text a technician the rest. The machine never goes on a network.
 
-Every shop has one. The person who sees alarm 431 and doesn't look it up, because they've seen it eleven times and know it's the coolant line, not the servo. Then that person retires.
+## Why
 
-What's left is a fifteen-hundred-page manual, a machine that's down, an operator who's been there eight months, and a lead who's on another job. The knowledge existed. It was even documented. It just wasn't reachable in the four minutes when it mattered.
+When a machine isn't cutting, it isn't making money. When it stops, it waits on the one person who knows how to fix it. Those people are retiring faster than new ones come in.
 
-## What it does
+## What's real
 
-Watches for a machine alarm. Retrieves the documented fix, cited rather than guessed, from manuals, service bulletins, and this machine's own history. Dispatches it to a maintenance lead with the fault and the procedure.
+**Working on a real machine, by phone.** On November 2, 2026, Marcel identified a ProtoTRAK RMX mill at a university machine shop from two technician photos sent over Telegram, read its fault, and replied with fix steps from the maker's manual with page citations. Read-only.
 
-The intent is that downtime collapses to the time it takes a human to walk over, because the diagnosis got there first. Proving that on real hardware is the next step, not a claim I can make yet.
+**Working in simulation.** On an offline industrial PC running a simulated FANUC-style control, Marcel holds the feed before a spindle overload, checks alarm history and tool life, texts the technician, and resets the tool-life counter after the technician replies. Simulated control, real hardware.
 
-## Read-only, on purpose
+**Next.** A read-only install on a real CNC control. Then a pilot shop.
 
-> [!warning] Marcel does not write to the machine. Ever.
-> No parameter changes, no overrides, no resuming a program. It observes and diagnoses. A human executes.
+## Offline
 
-Feed rates, spindle limits, and tool offsets are the only thing between "cutting metal" and "a tool at 12,000 RPM going somewhere it shouldn't," with an operator standing at the door. The question isn't whether an agent *could* write them. It's what confidence justifies letting it, and the honest answer is higher than any model currently earns where the failure mode is physical.
+The machine itself stays air-gapped: it never connects to a network. Marcel's agent runs on a separate computer and uses cloud AI today. Diagnosis already runs on a local model, and moving the whole agent offline is next.
 
-Read-only buys three things: a hallucination costs you a suggestion a human declines rather than a crashed machine, every action has an accountable operator, and it's the only version a shop owner will actually install.
+## The trust ladder
 
-Same instinct as [[Trust Layer for Agentic Payments]]. Bound what an agent *may* do structurally, so you don't have to trust that it behaves.
+Real machines start read-only. Then technician-approved actions from a reviewed list. It never jogs axes, edits programs, or changes offsets or parameters. That list is short: things like holding the feed, opening pages, or resetting a tool-life counter after a technician confirms a tool change.
 
-## Next
+Protective actions like holding the feed happen immediately, because stopping is the safe direction. Anything that restarts or changes the machine waits for the technician. In the simulation, the feed hold comes first, and the reset and restart come after the technician replies.
 
-**IMTS**, the International Manufacturing Technology Show in Chicago. Every controller vendor, integrator, and shop owner in the country in one building for a week, which makes it the cheapest way to find out whether the people who'd actually run this agree with how I've framed the problem, and to find a machine to validate against.
+Same instinct as [[Trust Layer for Agentic Payments]]: bound what the software *may* do structurally, so nobody has to trust that it behaves.
 
-Back to [[Projects]] · [[Entrepreneurship]] · [[Cytrence Technologies]]
+## Where it came from
+
+The summer before college I was the person standing in a machine shop's disorganized storage room, and I ended up writing software to fix the problem I was physically inside: [[Custom Machine Inc.]]. Four years later, same instinct, pointed at the control screen.
+
+At IMTS in September 2026 I went to find out whether reading the screen works on current machines. On the handful I got to look at, it does, for a reason I hadn't expected: [[The Screen Is the Common Interface]].
+
+Background, separate from Marcel: I'm an incoming intern at [[Nakamura-Tome]], working on machine tool software.
+
+Back to [[Projects]] · [[Entrepreneurship]]

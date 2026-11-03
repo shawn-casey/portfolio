@@ -2,7 +2,7 @@
 id: orchestration-engine
 title: Orchestration Engine
 folder: Experience
-order: 2
+order: 4
 tags: [agents, distributed-systems, temporal, docker, architecture]
 summary: Durable-execution orchestration for an agentic mobile pen-testing pipeline. Nine containers, six stages, resumes from the exact stage it died on.
 ---

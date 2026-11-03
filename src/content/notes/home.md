@@ -15,6 +15,8 @@ M.S. Cybersecurity at [[Georgia Institute of Technology]], Cyber-Physical System
 
 Jailbroken iPhones. Rooted Androids. F135 turbofan telemetry. CNC controllers. Noisy quantum hardware. Same instinct every time: get past whatever is guarding the thing, then build something that can reason about what you find.
 
+Building [[Marcel]], an air-gapped AI operator for CNC machines.
+
 Right now: product and growth work on a hardware launch at [[Cytrence Technologies]], and building an [[RV32I Processor|RV32I processor]] in SystemVerilog with SiliconJackets at Georgia Tech.
 
 > [!info] What I'm looking for
@@ -23,7 +25,7 @@ Right now: product and growth work on a hardware launch at [[Cytrence Technologi
 ## Start anywhere
 
 - [[Experience]] · Visa, U.S. Bank, Belcan, Cytrence
-- [[Projects]] · a CNC diagnostic agent, a quantum encryption compiler, a trust layer for agentic payments
+- [[Projects]] · an air-gapped AI operator for CNC machines, a quantum encryption compiler, a trust layer for agentic payments
 - [[Entrepreneurship]] · a detailing business that became a fundraiser
 - [[Hobbies]] · bikes, whitewater, mountains, 16 of 63 national parks
 - [[Education]] · the degrees and the leadership around them

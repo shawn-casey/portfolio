@@ -2,7 +2,7 @@
 id: qpke
 title: Quantum Public Key Encryption for NISQ Devices
 folder: Projects
-order: 2
+order: 3
 aliases: [QPKE]
 tags: [quantum, cryptography, qiskit, research]
 summary: A tunable quantum encryption compiler. Round-Robin QKD optimized for noisy intermediate-scale hardware.

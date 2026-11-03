@@ -2,9 +2,9 @@
 id: us-bank
 title: U.S. Bank
 folder: Experience
-order: 7
+order: 9
 tags: [ios, swift, payments, rag, internship]
-summary: Software Engineering Intern on Zelle Money Movement. iOS payment features, biometric auth, and on-device privacy-preserving insights.
+summary: Two stints in Atlanta. Technology Fellow in 2024, then Software Engineering Intern on Zelle Money Movement in 2025. iOS payment features, biometric auth, and on-device privacy-preserving insights.
 ---
 
 ![|logo](/img/usbank.webp)
@@ -13,7 +13,7 @@ summary: Software Engineering Intern on Zelle Money Movement. iOS payment featur
 Zelle Money Movement · Atlanta, GA · June to August 2025
 
 **Technology Fellow**
-June to July 2024
+Atlanta, GA · June to July 2024
 
 ![|inset](/img/usbank-office.webp)
 
