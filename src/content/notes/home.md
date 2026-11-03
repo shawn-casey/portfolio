@@ -17,14 +17,14 @@ Jailbroken iPhones. Rooted Androids. F135 turbofan telemetry. CNC controllers. N
 
 Building [[Marcel]], an air-gapped AI operator for CNC machines.
 
-Right now: product and growth work on a hardware launch at [[Cytrence Technologies]], and building an [[RV32I Processor|RV32I processor]] in SystemVerilog with SiliconJackets at Georgia Tech.
+Right now: a mobile security lane at [[Strix]], product and growth work on a hardware launch at [[Cytrence Technologies]], and building an [[RV32I Processor|RV32I processor]] in SystemVerilog with SiliconJackets at Georgia Tech. Next: machine tool software at [[Nakamura-Tome]].
 
 > [!info] What I'm looking for
 > A Summer 2027 internship in the Bay Area or New York. I want to be somewhere I'm encouraged to break things, then build the systems that put them back together better than before. Proving out the newest tools rather than reaching for the ones that are already proven.
 
 ## Start anywhere
 
-- [[Experience]] · Visa, U.S. Bank, Belcan, Cytrence
+- [[Experience]] · Nakamura-Tome, Strix, Visa, U.S. Bank, Belcan, Cytrence
 - [[Projects]] · an air-gapped AI operator for CNC machines, a quantum encryption compiler, a trust layer for agentic payments
 - [[Entrepreneurship]] · a detailing business that became a fundraiser
 - [[Hobbies]] · bikes, whitewater, mountains, 16 of 63 national parks

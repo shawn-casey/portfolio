@@ -13,6 +13,8 @@ website: marcelcnc.com
 > [!warning] Status
 > Working on a real machine by phone, read-only. Actions work in simulation only. It is not installed on a real CNC control yet, and there is no pilot shop yet.
 
+![|wide](/img/marcel-hero.webp)
+
 **Air-gapped AI operator for CNC machines.**
 
 A small KVM-style capture-and-keyboard device on the control's screen and USB keyboard port lets Marcel read the screen, diagnose alarms from the machine's own manuals with page citations, take actions from a short reviewed list and verify them on screen, and text a technician the rest. The machine never goes on a network.
