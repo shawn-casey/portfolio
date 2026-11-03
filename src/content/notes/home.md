@@ -19,8 +19,10 @@ Building [[Marcel]], an air-gapped AI operator for CNC machines.
 
 Right now: a mobile security lane at [[Strix]], product and growth work on a hardware launch at [[Cytrence Technologies]], and building an [[RV32I Processor|RV32I processor]] in SystemVerilog with SiliconJackets at Georgia Tech. Next: machine tool software at [[Nakamura-Tome]].
 
-> [!info] What I'm looking for
-> A Summer 2027 internship in the Bay Area or New York. I want to be somewhere I'm encouraged to break things, then build the systems that put them back together better than before. Proving out the newest tools rather than reaching for the ones that are already proven.
+> [!info] What I want to do
+> Bring AI to machines that were never built for it: offline industrial equipment that runs on its own screen and keyboard and still waits on one expert when something breaks. It pulls together what I've done so far: security, agentic AI, firmware, and growing up around CNC shops.
+>
+> I like breaking things, then building the systems that put them back together better, with the newest tools rather than the proven ones.
 
 ## Start anywhere
 
